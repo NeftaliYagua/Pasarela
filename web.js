@@ -1,3 +1,4 @@
+
 var port = process.env.PORT || 5000;
 var server = require('http').Server();
 var io = require('socket.io').listen(server);
@@ -19,7 +20,7 @@ io.configure(function () {
                   console.log(err);
                 }
                 else {
-                  console.log('Sesión codificada con exito: ', session);
+                  console.log('SesiÃ³n codificada con exito: ', session);
                   handshakeData.session = session;
                 }
             });*/
